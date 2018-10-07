@@ -1,0 +1,456 @@
+﻿@charset "UTF-8";
+/* CSS Document */
+
+@import url("css/bootstrap.css");
+
+a {
+	text-decoration: none;
+	color: #5c6d7f
+}
+a:hover {
+	text-decoration: none
+}
+/* Globals */
+
+body {
+	line-height: normal;
+	font-family: 'Poppins', sans-serif;
+	margin: 0;
+	background-color: #FFF;
+	font-size:18px;
+	font-weight:100;
+	color:#6d6d6d
+	
+}
+input {
+	border-radius: 3px;
+	border: solid 1px #6d6d6d;
+	padding: 10px 20px;
+	background-color: transparent;
+	outline: none;
+	width: 50%;
+	margin: 5px 0;
+	line-height: normal;
+	font-weight: 100;
+	font-size: 16px
+}
+textarea {
+	border-radius: 3px;
+	border: solid 1px #6d6d6d;
+	padding: 10px 20px;
+	background-color: transparent;
+	outline: none;
+	width: 50%;
+	margin: 5px 0;
+	height: 100px;
+	line-height: normal;
+	font-weight: 100;
+	font-size: 16px
+}
+.site-header, .site-body, .site-footer {
+	width: 100%;
+	float: left
+}
+.inner {
+	max-width: 1066px;
+	margin: 0 auto;
+	padding: 0 20px;
+}
+.site-footer {
+	margin: 100px 0;
+	text-align: center;
+	font-size: 18px;
+	color: #989898;
+	font-weight: 100;
+	line-height: 30px;
+}
+/* BEGIN scroller */
+
+html, body, .page, .site-body, .scroller, .inner, .scroller section {
+	height: 100%;
+}
+.scroller section {
+	position: relative;
+	background-position: top center;
+	background-repeat: no-repeat;
+	background-size: cover;
+}
+.no-touch .scroller section {
+	background-attachment: fixed;
+}
+.top {
+    background-image: url('../../img/bg.jpg');
+}
+.scroller-overlay {
+	position: absolute;
+	top: 0;
+	left: 0;
+	z-index: 1;
+	height: 100%;
+	width: 100%;
+	opacity: 0.85;
+	background-color: #233445
+}
+.scroller .profile {
+	max-width: 1066px;
+	margin: 0 auto;
+	padding-top: 15%;
+	color: #fff;
+	text-align: center;
+	position: fixed;
+	width: 50%;
+	left: 25%;
+	z-index: 3
+}
+.scroller .profile img {
+	width: 160px;
+	border-radius: 100%;
+	margin: 15px 0
+}
+.scroller .profile h1 {
+	font-size: 34px;
+	margin: 0px;
+	font-weight: 700;
+}
+.scroller .profile h2 {
+	font-size: 32px;
+	font-weight: 100;
+	margin: 3px 0
+}
+.scroller .profile h3 {
+	font-size: 18px;
+	font-weight: 100;
+	color: #5c6d7f;
+	margin: 12px 0;
+}
+.scroller .profile p {
+	font-size: 21px;
+	font-weight: 100;
+	color: #93a9bf;
+	line-height: 32px;
+	width: 85%;
+	margin: 35px auto;
+}
+.scroller .profile a {
+	color: #FFF;
+	border: solid 1px #FFF;
+	padding: 15px 20px;
+	border-radius: 4px;
+	margin: 50px 0;
+	position: relative;
+	top: 25px;
+	font-size: 18px;
+	font-weight: 100;
+}
+.scroller .profile a:hover {
+	background-color: #FFF;
+	color: #233445
+}
+/* END scroller */
+
+
+/* BEGIN header */
+
+.site-header {
+	position: fixed;
+	z-index: 8;
+	padding: 20px 0;
+}
+.site-header .social-icons {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 600;
+	float: left;
+}
+.site-header .social-icons-2 {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 600;
+	float: left;
+	width: 100%;
+	display: none
+}
+.site-header .social-icons-2 i {
+	margin-right: 7px;
+	color: #93a9bf
+}
+.site-header .social-icons i {
+	margin-right: 7px;
+	color: #93a9bf
+}
+.site-header .site-menu {
+	color: #FFF;
+	font-size: 24px;
+	font-weight: 600;
+	float: right;
+	width: 100%;
+	text-align: right
+}
+.site-menu .fa-bars {
+	float: right;
+	margin-left: 15px;
+	cursor: pointer;
+	padding:6px 0 0 0;
+}
+.site-menu ul {
+	float: right;
+	margin: 7px 0;
+	display: none
+}
+.site-menu ul li {
+	float: left;
+	list-style: none;
+	margin: 0 10px;
+	font-size: 16px;
+	font-weight: 100
+}
+.site-menu ul li a {
+	text-decoration: none;
+	color: #fff
+}
+.site-menu ul li a:hover {
+	color: #93a9bf
+}
+/* END header */
+
+
+
+/* BEGIN body */
+
+.site-body {
+	background-color: #FFF;
+	z-index: 7;
+	position: relative;
+}
+.site-body h3 {
+	text-align: center;
+	font-size: 21px;
+	margin: 40px 0;
+	color: #989898;
+	font-weight: 100
+}
+/* education section */
+
+.education {
+	text-align: center
+}
+.education h4 {
+	color: #45576a;
+	font-size: 21px;
+	font-weight: 700;
+	display: inline;
+	text-transform: uppercase
+}
+.education h6 {
+	color: #45576a;
+	font-size: 18px;
+	font-weight: 100;
+	text-transform: uppercase
+}
+.education span {
+	color: #45576a;
+	font-size: 18px;
+	font-weight: 400;
+	margin-left: 10px;
+	text-transform: uppercase
+}
+.education p {
+	font-size: 15px;
+	color: #6d6d6d;
+	line-height: 1.6;
+	font-weight: 100;
+	width: 70%;
+	margin: 0 auto;
+}
+.education section {
+	margin: 0 0 55px 0
+}
+/* languages section */
+
+.languages {
+	text-align: center
+}
+.languages section {
+	display: inline-block;
+	text-align: center;
+	margin: 0 30px;
+}
+.languages h4 {
+	font-size: 16px;
+	color: #6d6d6d;
+	font-weight: 100
+}
+.languages h6 {
+	font-size: 18px;
+	color: #45576a;
+	font-weight: 500;
+	text-transform: uppercase
+}
+/* skills section */
+
+.skills {
+	text-align: center;
+	width: 60%;
+	margin: 0 auto;
+}
+.skills h4 {
+	font-size: 16px;
+	color: #6d6d6d;
+	font-weight: 100
+}
+.progress {
+	position: relative;
+	height: 15px;
+	background-color: #cbcbcb;
+	box-shadow: none;
+	border-radius: 4px;
+    height:20px;
+}
+.progress-bar {
+	background-color: #556575
+}
+/* portfolio section */
+
+.portfolio a {
+	font-weight: 100 !important;
+	text-transform: capitalize !important;
+	font-size: 16px !important;
+}
+.portfolio a:hover {
+	text-decoration: none !important
+}
+.portfolio a:focus {
+	text-decoration: none !important
+}
+/* contact section */
+
+.contact {
+	float: left;
+	width: 100%;
+	text-align: center
+}
+.contact p {
+	font-size: 18px;
+	color: #6d6d6d;
+	width: 40%;
+	margin: 30px auto;
+	line-height: 30px;
+	font-weight: 100
+}
+.contact .send-cont {
+	margin: 20px 0;
+	float: left;
+	width: 100%;
+}
+.contact a {
+	border-radius: 3px;
+	border: solid 1px #6d6d6d;
+	padding: 12px 24px;
+	background-color: transparent;
+	outline: none;
+	width: 50%;
+	margin: 25px 0;
+	color: #5c6d7f;
+	font-size: 18px;
+}
+.contact a:hover {
+	border: solid 2px #5c6d7f;
+	background-color: #5c6d7f;
+	color: #fff;
+}
+.line {
+	width: 2px;
+	height: 35px;
+	background-color: #CCC;
+	margin: 30px auto
+}
+ @media only screen and (max-width: 600px) {
+.site-header .site-menu {
+	width: 30%;
+}
+.scroller .profile {
+	width: 80%;
+	left: 10%
+}
+.scroller .profile img {
+	width: 120px
+}
+.scroller .profile h1 {
+	font-size: 26px
+}
+.scroller .profile h2 {
+	font-size: 24px
+}
+.scroller .profile h3 {
+	font-size: 14px
+}
+.scroller .profile p {
+	font-size: 16px;
+	line-height: 24px;
+	margin: 25px auto;
+}
+.scroller .profile a {
+	font-size: 14px;
+}
+input, textarea {
+	width: 90%
+}
+.contact p {
+	width: 80%
+}
+.skills {
+	width: 80%
+}
+}
+
+
+/******* BEGIN single *******/
+.single .site-header { background-color:#556575 }
+.single .site-menu a{ color:#FFF }
+.single .site-menu a:hover{ color:#93a9bf }
+.single .content { margin:120px 0 0 0; text-align:center}
+.single .content h1{ font-size:26px;margin:130px 0 20px 0; color:#556575}
+.single .content p{ margin:20px auto 30px auto; width:80%}
+.single .content img { width:100%}
+/******* END single *******/
+
+
+
+ @media only screen and (max-width: 900px) {
+.site-header .social-icons {
+	display: none;
+	text-align: center;
+	width: 100%
+}
+.site-header .social-icons-2 {
+	display: block
+}
+.site-header .site-menu {
+	width: 100%;
+}
+.site-header .site-menu ul {
+	width: 100%;
+	background-color: #5c6d7f;
+	padding: 20px 0;
+	border-radius: 3px;
+}
+.site-header .site-menu ul li {
+	margin: 25px 0 10px 0;
+	width: 100%;
+	text-align: center
+}
+
+.site-footer {
+	font-size:15px;
+	margin: 30px 0;
+}
+
+/******* BEGIN single *******/
+.single .content h1{ font-size:21px;margin:130px 0 20px 0; color:#556575}
+.single .content p{ margin:20px auto 30px auto; font-size:15px;}
+/******* END single *******/
+
+}
+
+
+

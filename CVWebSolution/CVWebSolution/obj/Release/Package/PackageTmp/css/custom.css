@@ -1,0 +1,19 @@
+﻿.contact button {
+    color: #5c6d7f;
+    border: solid 1px #6d6d6d;
+    background-color: transparent;
+    padding: 12px 24px;
+    border-radius: 3px;
+    margin-bottom: 25px;
+    position: relative;
+    top: 25px;
+    font-size: 18px;
+    font-weight: 100;
+}
+
+    .contact button:hover {
+        border: solid 1px #5c6d7f;
+        background-color: #5c6d7f;
+        color: #fff;
+    }
+
