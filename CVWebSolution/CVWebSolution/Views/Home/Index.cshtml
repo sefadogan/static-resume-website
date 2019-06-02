@@ -67,9 +67,9 @@
                         <img src="/img/profile.jpg">
                         <h3>4 Ekim 1996</h3>
                         <h1>SEFA DOĞAN</h1>
-                        <h2>Jr .NET Developer</h2>
+                        <h2>Junior .NET Developer</h2>
                         <br />
-                        <a href="~/Documents/sefadogan-resume.pdf">Özgeçmişi İndir</a>
+                        <a href="~/Documents/sefadogan-ozgecmis.pdf">Özgeçmişi İndir</a>
                         <a href="http://blog.sefadogan.com/" target="_blank">Blog</a>
                     </div>
                 </div>
@@ -87,15 +87,15 @@
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture"></div>
                             <div class="cd-timeline-content">
-                                <h4>Junior .NET Developer</h4>
+                                <h4>Junior .NET Developer (Sözleşmeli, Part-Time)</h4>
                                 <h6>BELBİM Elektronik Para ve Ödeme Hizmetleri A.Ş.</h6>
-                                <span class="cd-date">11.2018 - Devam etmekte</span>
+                                <span class="cd-date">11.2018 - 02.2018</span>
                             </div>
                         </div>
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture"></div>
                             <div class="cd-timeline-content">
-                                <h4>Stajyer</h4>
+                                <h4>Software Intern</h4>
                                 <h6>Activebuilder Solutions</h6>
                                 <span class="cd-date">07.2018 - 08.2018</span>
                             </div>
@@ -111,7 +111,7 @@
                         <div class="cd-timeline-block">
                             <div class="cd-timeline-img cd-picture"></div>
                             <div class="cd-timeline-content">
-                                <h4>Junior .NET Developer</h4>
+                                <h4>Junior .NET Developer (Part-Time)</h4>
                                 <h6>CF Mühendislik Telekomünikasyon</h6>
                                 <span class="cd-date">07.2017 - 06.2018</span>
                             </div>
@@ -139,7 +139,7 @@
                     <h3>Yabancı Dil</h3>
                     <section>
                         <h4>İngilizce</h4>
-                        <h6>İYİ</h6>
+                        <h6>Profesyonel Çalışma Yetkinliği</h6>
                     </section>
                 </div>
                 <!--End Languages -->
@@ -253,7 +253,6 @@
                 <!--End Skills -->
                 <!--BEGIN contact -->
                 <div class="contact" id="Contact">
-
                     <div class="line"></div>
                     <h3>İletişim</h3>
                     <form id="contactForm" method="post">
@@ -262,7 +261,6 @@
                         <textarea id="txtMesaj" name="mesaj" placeholder="Mesaj*" style="resize:vertical; height:150px;" required></textarea><br />
                         <button type="submit">Gönder</button>
                     </form>
-
                 </div>
                 <!--End Languages -->
                 <!-- BEGIN footer -->
@@ -270,7 +268,6 @@
                     &copy; @DateTime.Now.Year |  Made with &hearts; by <strong>Sefa DOĞAN</strong>
                 </div>
                 <!-- END footer -->
-
             </div>
             <!-- END inner -->
         </div>
@@ -291,8 +288,6 @@
     <script src="~/Temp/SeratiCV/filterable/main.js"></script>
 
     <script>
-        // change header background after scrolling
-
         $(document).ready(function () {
             var scroll_start = 0;
             var startchange = $('#startchange');
@@ -307,9 +302,6 @@
             });
         });
 
-    </script>
-
-    <script>
         $(function () {
             $("#contactForm").submit(function () {
                 $.post("/Home/SendEmail", $(this).serialize(), function (data) {

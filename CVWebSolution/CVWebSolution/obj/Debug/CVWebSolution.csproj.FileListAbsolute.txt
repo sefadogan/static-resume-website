@@ -61,7 +61,6 @@ D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\bin\System.
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\bin\System.Web.Webpages.Razor.xml
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\bin\System.Web.Helpers.xml
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\bin\System.Web.Mvc.xml
-D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\obj\Debug\CVWebSolution.csprojAssemblyReference.cache
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\obj\Debug\CVWebSolution.csproj.CoreCompileInputs.cache
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\obj\Debug\CVWebSolution.csproj.CopyComplete
 D:\Projeler\GitHub\static-resume-website\CVWebSolution\CVWebSolution\obj\Debug\CVWebSolution.dll

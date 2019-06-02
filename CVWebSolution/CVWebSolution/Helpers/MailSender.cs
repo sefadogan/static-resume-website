@@ -23,7 +23,7 @@ namespace CVWebSolution.Helpers
             foreach (var item in to)
                 mail.To.Add(new MailAddress(item));
 
-            mail.From = new MailAddress("iletisim@sefadogan.com");
+            mail.From = new MailAddress("contact@sefadogan.com");
             mail.Subject = subject;
             mail.IsBodyHtml = true;
             mail.Body = body;
@@ -31,8 +31,8 @@ namespace CVWebSolution.Helpers
             SmtpClient client = new SmtpClient("mail.sefadogan.com", 587);
             NetworkCredential credential = new NetworkCredential
             {
-                UserName = "iletisim@sefadogan.com",
-                Password = "Ur6mxHJV"
+                UserName = "contact@sefadogan.com",
+                Password = "%sz401eR."
             };
 
             client.UseDefaultCredentials = false;
